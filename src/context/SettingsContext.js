@@ -20,7 +20,7 @@ const SettingsContextProvider = (props) => {
   }
 
   return (
-    <SettingsContext.Provider value={{}}>
+    <SettingsContext.Provider value={{stopTimer}}>
       {props.children}
     </SettingsContext.Provider>
   );
